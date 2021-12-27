@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+/*---------- 文字 ---------- */
+body {
+  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+}
+
+h1 {
+  margin: 0 0 0 0;
+  position: relative;
+  font-size: 5.5vw;
+  text-align: center;
+  font-weight: 800;
+  color: #000000;
+}
+
+h2 {
+  margin: 0 0 0 0;
+  position: relative;
+  font-size: 5.5vw;
+  text-align: center;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+h3 {
+  margin: 0 0 0 0;
+  position: relative;
+  font-size: 2.5vw;
+  text-align: center;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+h4 {
+  margin: 0 0 0 0;
+  position: relative;
+  font-size: 2.5vw;
+  text-align: center;
+  font-weight: 800;
+  color: #cc0000;
+}
+
+a {
+  margin: 0 0 0 0;
+  position: relative;
+  font-size: 2vw;
+  font-weight: 800;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+txt1 {
+  margin: 0 0 0 0;
+  position: relative;
+  font-size: 2vw;
+  font-weight: 500;
+  color: #000000;
+}
+
+txt2 {
+  margin: 0 0 0 0;
+  position: relative;
+  font-size: 2vw;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+/*---------- ボタン ---------- */
+.btn06{
+  position: relative;
+  text-decoration: none;
+	display: inline-block;
+	background:#009fe8;
+	color:#fff;
+  padding: 10px 40px 10px 30px;
+	border-radius:25px;
+  text-align: center;
+  outline: none;
+  transition: ease .2s;
+  font-size: 1.7vw;
+  font-weight: 600;
+  color: #000000;
+}
+
+.btn06:hover{
+  background:#4ab8f7;
+}
+
+.btnarrow2::after{
+  content: '';
+  position: absolute;
+  top:42%;
+  right: 13px;
+  width: 5px;
+  height: 5px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(45deg);
+}
+
+.btnarrow2:hover::after{
+  animation: arrow .5s;
+}
+
+@keyframes arrow {
+  50% {
+    right: 10px;
+  }
+  100% {
+    right: 13px;
+  }
+}
+
+/*---------- セクション ---------- */
+.sec02 {
+  margin: 0 0 0 0;
+	height: auto;
+	background-image: url("部活動見学.png");
+}
+
+.sec04 {
+  margin: 0 0 0 0;
+	height: auto;
+	background-color: #2857b1;
+}
+
+/*---------- 画面分割 ---------- */
+.flex_div {
+  display: flex;
+  justify-content: center;
+}
+
+.a_div {
+  display: inline-block;
+  width: 15%;
+  padding:0vw;
+  margin: 0vw 0vw 0vw 0vw;
+}
+
+.a_div img {
+  display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+.b_div {
+  display: inline-block;
+  width: 80%;
+  padding:0vw;
+  margin: 0vw 0vw 0vw 0vw;
+}
+
+.b_div img {
+  display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+.c_div {
+  display: inline-block;
+  width: 22%;
+  padding:0vw;
+  margin: 0vw 1vw 0vw 1vw;
+}
+
+.c_div img {
+  display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+.d_div {
+  display: inline-block;
+  width: 50%;
+  padding:0vw;
+  margin: 0vw 0.5vw 0vw 0.5vw;
+}
+
+.d_div img {
+  display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+.e_div {
+  display: inline-block;
+  width: 10%;
+  padding:0vw;
+  margin: 0vw 0.5vw 0vw 0.5vw;
+}
+
+.e_div img {
+  display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+.f_div {
+  display: inline-block;
+  width: 40%;
+  padding:0vw;
+  margin: 0vw 1vw 0vw 1vw;
+}
+
+.f_div img {
+  display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+.g_div {
+  display: inline-block;
+  width: 70%;
+  padding:0vw;
+  margin: 0vw 1vw 0vw 1vw;
+}
+
+.g_div img {
+  display: inline-block;
+	width: 100%;
+	height: auto;
+}
