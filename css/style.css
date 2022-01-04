@@ -26,7 +26,7 @@ h2 {
 h3 {
   margin: 0 0 0 0;
   position: relative;
-  font-size: 2.5vw;
+  font-size: 1.5vw;
   text-align: center;
   font-weight: 800;
   color: #ffffff;
@@ -39,6 +39,24 @@ h4 {
   text-align: center;
   font-weight: 800;
   color: #cc0000;
+}
+
+h5 {
+  margin: 0 0 0 0;
+  position: relative;
+  font-size: 1.7vw;
+  text-align: center;
+  font-weight: 800;
+  color: #000000;
+}
+
+h6 {
+  margin: 0 0 0 0;
+  position: relative;
+  font-size: 1.2vw;
+  text-align: right;
+  font-weight: 800;
+  color: #000000;
 }
 
 a {
@@ -116,7 +134,7 @@ txt2 {
 .sec02 {
   margin: 0 0 0 0;
 	height: auto;
-	background-image: url("tcut.jpg");
+	background-image: url("https://tcut-sci-tech.github.io/top/tcut_img.jpg");
 }
 
 .sec04 {
@@ -159,9 +177,10 @@ txt2 {
 
 .c_div {
   display: inline-block;
-  width: 22%;
+  width: 24%;
   padding:0vw;
-  margin: 0vw 1vw 0vw 1vw;
+  margin: 0vw 0vw 0vw 0vw;
+  background-color: #009fe8;
 }
 
 .c_div img {
@@ -172,9 +191,10 @@ txt2 {
 
 .d_div {
   display: inline-block;
-  width: 50%;
+  width: 24%;
   padding:0vw;
-  margin: 0vw 0.5vw 0vw 0.5vw;
+  margin: 0vw 0vw 0vw 0vw;
+  background-color: #2857b1;
 }
 
 .d_div img {
@@ -185,7 +205,7 @@ txt2 {
 
 .e_div {
   display: inline-block;
-  width: 10%;
+  width: 50%;
   padding:0vw;
   margin: 0vw 0.5vw 0vw 0.5vw;
 }
@@ -198,9 +218,9 @@ txt2 {
 
 .f_div {
   display: inline-block;
-  width: 40%;
+  width: 10%;
   padding:0vw;
-  margin: 0vw 1vw 0vw 1vw;
+  margin: 0vw 0.5vw 0vw 0.5vw;
 }
 
 .f_div img {
@@ -211,12 +231,25 @@ txt2 {
 
 .g_div {
   display: inline-block;
-  width: 70%;
+  width: 40%;
   padding:0vw;
   margin: 0vw 1vw 0vw 1vw;
 }
 
 .g_div img {
+  display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+.h_div {
+  display: inline-block;
+  width: 70%;
+  padding:0vw;
+  margin: 0vw 1vw 0vw 1vw;
+}
+
+.h_div img {
   display: inline-block;
 	width: 100%;
 	height: auto;
