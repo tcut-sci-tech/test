@@ -134,7 +134,8 @@ txt2 {
 .sec02 {
   margin: 0 0 0 0;
 	height: auto;
-	background-image: url("https://tcut-sci-tech.github.io/top/tcut_img.jpg");
+	background-image: url("");
+  background-color: #00a7eb;
 }
 
 .sec04 {
