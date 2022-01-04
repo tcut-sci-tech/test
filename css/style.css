@@ -47,7 +47,7 @@ h5 {
   font-size: 1.7vw;
   text-align: center;
   font-weight: 800;
-  color: #000000;
+  color: #ffffff;
 }
 
 h6 {
@@ -56,7 +56,7 @@ h6 {
   font-size: 1.2vw;
   text-align: right;
   font-weight: 800;
-  color: #000000;
+  color: #ffffff;
 }
 
 a {
@@ -134,7 +134,7 @@ txt2 {
 .sec02 {
   margin: 0 0 0 0;
 	height: auto;
-	background-image: url("https://tcut-sci-tech.github.io/test/%E8%97%8D%20%E6%A1%90%20%E7%A5%AD.jpg");
+	background-image: url("部活動見学.jpg");
 }
 
 .sec04 {
