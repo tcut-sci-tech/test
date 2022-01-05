@@ -134,7 +134,7 @@ txt1 {
 
 .a_div {
   display: inline-block;
-  width: 15%;
+  width: 10%;
   padding:0vw;
   margin: 0vw 0vw 0vw 0vw;
 }
@@ -160,7 +160,7 @@ txt1 {
 
 .c_div {
   display: inline-block;
-  width: 24%;
+  width: 27%;
   padding:0vw;
   margin: 0vw 0vw 0vw 0vw;
   background-color: #009fe8;
@@ -174,7 +174,7 @@ txt1 {
 
 .d_div {
   display: inline-block;
-  width: 24%;
+  width: 27%;
   padding:0vw;
   margin: 0vw 0vw 0vw 0vw;
   background-color: #2857b1;
@@ -201,9 +201,9 @@ txt1 {
 
 .f_div {
   display: inline-block;
-  width: 10%;
+  width: 40%;
   padding:0vw;
-  margin: 0vw 0.5vw 0vw 0.5vw;
+  margin: 0vw 1vw 0vw 1vw;
 }
 
 .f_div img {
@@ -214,25 +214,12 @@ txt1 {
 
 .g_div {
   display: inline-block;
-  width: 40%;
-  padding:0vw;
-  margin: 0vw 1vw 0vw 1vw;
-}
-
-.g_div img {
-  display: inline-block;
-	width: 100%;
-	height: auto;
-}
-
-.h_div {
-  display: inline-block;
   width: 70%;
   padding:0vw;
   margin: 0vw 1vw 0vw 1vw;
 }
 
-.h_div img {
+.g_div img {
   display: inline-block;
 	width: 100%;
 	height: auto;
