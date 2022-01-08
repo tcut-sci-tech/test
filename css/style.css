@@ -62,7 +62,7 @@ h6 {
 a {
   margin: 0 0 0 0;
   position: relative;
-  font-size: 2vw;
+  font-size: 1.7vw;
   font-weight: 500;
   color: #ffffff;
   text-decoration: none;
@@ -207,9 +207,9 @@ txt2 {
 
 .e_div {
   display: inline-block;
-  width: 50%;
+  width: 40%;
   padding:0vw;
-  margin: 0vw 0.5vw 0vw 0.5vw;
+  margin: 0vw 1vw 0vw 1vw;
 }
 
 .e_div img {
@@ -220,25 +220,12 @@ txt2 {
 
 .f_div {
   display: inline-block;
-  width: 40%;
-  padding:0vw;
-  margin: 0vw 1vw 0vw 1vw;
-}
-
-.f_div img {
-  display: inline-block;
-	width: 100%;
-	height: auto;
-}
-
-.g_div {
-  display: inline-block;
   width: 70%;
   padding:0vw;
   margin: 0vw 1vw 0vw 1vw;
 }
 
-.g_div img {
+.f_div img {
   display: inline-block;
 	width: 100%;
 	height: auto;
