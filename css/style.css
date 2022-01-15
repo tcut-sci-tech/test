@@ -87,7 +87,7 @@ txt2 {
 /*---------- 画像切り替え ---------- */
 .slideBox {
   width: 100%;
-  height: auto;
+  height: 100%;
   position: relative;
 }
 
