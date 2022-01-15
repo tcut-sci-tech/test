@@ -88,7 +88,6 @@ txt2 {
 .slideBox {
   width: 100%;
   height: auto;
-  overflow: hidden;
   position: relative;
 }
 
