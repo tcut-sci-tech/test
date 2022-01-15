@@ -85,19 +85,68 @@ txt2 {
 }
 
 /*---------- 画像切り替え ---------- */
-#photo {
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  text-align: left;
-  overflow: hidden;
-  position: relative;
+.album {
+	margin: auto;
+	background-color: white;
+	position: relative;
 }
 
-#photo img {
-  top: 0;
-  left: 0;
-  position: absolute;
+.album img {
+	width: 50%;
+	animation-name: album;
+	-webkit-animation-name: album;
+	animation-duration: 10s;
+	-webkit-animation-duration: 10s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	opacity: 0;
+}
+
+.album .img1 {
+	display: block;
+	margin: 0 auto;
+}
+
+.album .img2 {
+	animation-delay:5s;
+	-webkit-animation-delay:5s;
+	position: absolute;
+	top: 0;
+	left: 25%;
+}
+
+@keyframes album {
+	0% {
+		opacity: 0;
+	}
+	
+	12.5% {
+		opacity: 1;
+	}
+
+	37.5% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes album {
+	0% {
+		opacity: 0;
+	}
+	
+	12.5% {
+		opacity: 1;
+	}
+
+	37.5% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
 }
 
 /*---------- ボタン ---------- */
