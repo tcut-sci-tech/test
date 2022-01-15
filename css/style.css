@@ -84,6 +84,73 @@ txt2 {
   color: #ffffff;
 }
 
+/*---------- 画像切り替え ---------- */
+.slideBox {
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.item1 {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-animation: anime 30s 0s infinite;
+  animation: anime 30s 0s infinite;
+}
+
+.item1:nth-of-type(2) {
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s;
+}
+
+.item1:nth-of-type(3) {
+  -webkit-animation-delay: 20s;
+  animation-delay: 20s;
+}
+
+@keyframes anime {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+    z-index: 9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes anime {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+    z-index: 9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 /*---------- ボタン ---------- */
 .btn06{
   position: relative;
