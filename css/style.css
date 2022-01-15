@@ -86,7 +86,7 @@ txt2 {
 
 /*---------- 画像切り替え ---------- */
 .slideBox {
-  height: 500px;
+  height: auto;
   overflow: hidden;
   position: relative;
 }
