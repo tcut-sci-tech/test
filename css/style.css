@@ -89,7 +89,7 @@ txt2 {
   max-width: 100%;
   height: ;
   overflow: ;
-  position: relative;
+  position: absolute;
 }
 
 /* imgのみ */
