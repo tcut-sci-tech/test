@@ -88,11 +88,10 @@ txt2 {
 .slideBox {
   max-width: 100%;
   height: auto;
-  overflow: hidden;
-  position: relative;
+  overflow: ;
+  position: ;
 }
 
-/* imgのみ */
 .item1 {
   opacity: 0;
   max-width: 100%;
