@@ -89,7 +89,7 @@ txt2 {
   max-width: 100%;
   height: ;
   overflow: ;
-  position: absolute;
+  position: relative;
 }
 
 /* imgのみ */
@@ -97,7 +97,7 @@ txt2 {
   opacity: 0;
   max-width: 100%;
   height: auto;
-  object-fit: ;
+  object-fit: cover;
   position: absolute;
   left: 0;
   top: 0;
