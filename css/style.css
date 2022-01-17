@@ -87,7 +87,7 @@ txt2 {
 /*---------- 画像切り替え ---------- */
 .slideBox {
   width: 100vw;
-  height: auto;
+  height: 56.25vw;
   overflow: hidden;
   position: relative;
 }
@@ -95,7 +95,7 @@ txt2 {
 .item1 {
   opacity: 0;
   width: 100vw;
-  height: 56.25vw;
+  height: 100%;
   object-fit: cover;
   position: absolute;
   left: 0;
