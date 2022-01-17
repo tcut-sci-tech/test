@@ -114,7 +114,6 @@ txt2 {
   animation-delay: 10s;
 }
 
-/* ふわっとアニメーション */
 @keyframes anime {
   0% {
     opacity: 0;
