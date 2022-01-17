@@ -198,6 +198,15 @@ txt2 {
   }
 }
 
+/*---------- ボックス ---------- */
+.box9 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #ff7d6e;
+    background: #ffffff;
+    border-top: solid 10px #ff7d6e;
+}
+
 /*---------- セクション ---------- */
 .sec02 {
   margin: 0 0 0 0;
