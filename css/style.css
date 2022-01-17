@@ -96,7 +96,7 @@ txt2 {
 .item1 {
   opacity: 0;
   max-width: 100%;
-  height: ;
+  height: auto;
   object-fit: ;
   position: relative;
   left: 0;
