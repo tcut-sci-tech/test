@@ -95,7 +95,7 @@ txt2 {
 .item1 {
   opacity: 0;
   width: 100vw;
-  height: 56.25;
+  height: 56.25vw;
   object-fit: cover;
   position: absolute;
   left: 0;
