@@ -87,7 +87,7 @@ txt2 {
 /*---------- 画像切り替え ---------- */
 .slideBox {
   max-width: 100%;
-  height: auto;
+  height: ;
   overflow: ;
   position: relative;
 }
@@ -96,9 +96,9 @@ txt2 {
 .item1 {
   opacity: 0;
   max-width: 100%;
-  height: auto;
-  object-fit: ;
-  position: relative;
+  height: ;
+  object-fit: cover;
+  position: absolute;
   left: 0;
   top: 0;
   -webkit-animation: anime 15s 0s infinite;
