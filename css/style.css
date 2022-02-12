@@ -2,7 +2,7 @@
 
 /*---------- 文字 ---------- */
 body {
-  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+  font-family: 'M PLUS 1p', 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -150,6 +150,30 @@ txt2 {
   100% {
     opacity: 0;
   }
+}
+
+/*---------- ふわぁ ---------- */
+.fadeUp{
+  animation-name:fadeUpAnime;
+  animation-duration:0.5s;
+  animation-fill-mode:forwards;
+  opacity:0;
+}
+
+@keyframes fadeUpAnime{
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeUpTrigger{
+  opacity: 0;
 }
 
 /*---------- ボタン ---------- */
