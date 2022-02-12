@@ -1,5 +1,5 @@
 /*---------- ふわぁ ---------- */
-function fadeAnime(){
+$function fadeAnime(){
   $('.fadeUpTrigger').each(function(){
     var elemPos = $(this).offset().top-50;
 		var scroll = $(window).scrollTop();
