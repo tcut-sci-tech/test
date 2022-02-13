@@ -1,7 +1,7 @@
 /*---------- ふわぁ ---------- */
 function fadeAnime(){
   $('.fadeUpTrigger').each(function(){
-    var elemPos = $(this).offset().top-100;
+    var elemPos = $(this).offset().top-5;
     var scroll = $(window).scrollTop();
     var windowHeight = $(window).height();
 		if (scroll >= elemPos - windowHeight){
