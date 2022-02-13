@@ -268,22 +268,10 @@ txt5 {
 }
 
 /*---------- 中心線 ---------- */
-*{
-  box-sizing:border-box;
-}
-
-ul{
-  list-style:none;
-  width:100%;
-  display:flex;
-  justify-content:space-between;
-  li{
-    width:48%;
-    padding:0 10px;
-    &:first-child{
-      border-right:1px solid #ccc;
-    }
-  }
+.line {
+  margin: 1.5vw 0vw 1.5vw 0vw;
+  width: 0.2vw;
+  background-color: #a9a9a9;
 }
 
 /*---------- 画面分割 ---------- */
