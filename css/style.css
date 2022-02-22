@@ -243,13 +243,6 @@ txt5 {
 	background-color: #2857b1;
 }
 
-/*---------- 中心線 ---------- */
-.line {
-  margin: 1.5vw 0vw 1.5vw 0vw;
-  width: 0.2vw;
-  background-color: #a9a9a9;
-}
-
 /*---------- 画面分割 ---------- */
 .flex_div {
   display: flex;
