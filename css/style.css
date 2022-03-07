@@ -91,14 +91,6 @@ txt4 {
   color: #cc0000;
 }
 
-txt5 {
-  margin: 0 0 0 0;
-  position: relative;
-  font-size: 2vw;
-  font-weight: 800;
-  color: #cc0000;
-}
-
 /*---------- 画像切り替え ---------- */
 .slideBox {
   width: 100vw;
@@ -251,7 +243,7 @@ txt5 {
 
 .a_div {
   display: inline-block;
-  width: 10%;
+  width: 5%;
   padding:0vw;
   margin: 0vw 0vw 0vw 0vw;
 }
@@ -264,7 +256,7 @@ txt5 {
 
 .b_div {
   display: inline-block;
-  width: 80%;
+  width: 90%;
   padding:0vw;
   margin: 0vw 0vw 0vw 0vw;
 }
