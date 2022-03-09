@@ -321,10 +321,6 @@ txt4 {
 	height: auto;
 }
 
-.c_div img:hover{
-  opacity: 0.5;
-}
-
 .d_div {
   display: inline-block;
   width: 30%;
