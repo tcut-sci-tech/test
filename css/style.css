@@ -237,6 +237,36 @@ txt4 {
 	background-color: #2857b1;
 }
 
+/*---------- フッター リンク ---------- */
+.op a:hover{
+	color: #fff;
+	opacity: 0.5;
+}
+
+.twitter a::before{
+  content: '';
+  display: inline-block;
+  width: 2.5vw;
+  height: 2.5vw;
+  background-image: url(Logo twitter.jpg);  
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 1vw;
+}
+
+.tcu a::before{
+  content: '';
+  display: inline-block;
+  width: 2.5vw;
+  height: 2.5vw;
+  background-image: url(Logo tcu.jpg);  
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 1vw;
+}
+
 /*---------- 画面分割 ---------- */
 .flex_div {
   display: flex;
@@ -271,7 +301,7 @@ txt4 {
 
 .c_div {
   display: inline-block;
-  width: 27%;
+  width: 30%;
   padding:0vw;
   margin: 0vw 0vw 0vw 0vw;
   background-color: #009fe8;
@@ -285,7 +315,7 @@ txt4 {
 
 .d_div {
   display: inline-block;
-  width: 27%;
+  width: 30%;
   padding:0vw;
   margin: 0vw 0vw 0vw 0vw;
   background-color: #2857b1;
