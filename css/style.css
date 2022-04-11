@@ -242,12 +242,13 @@ txt4 {
 /*---------- スライド ---------- */
 .slider {
   width:94%;
+  height:37vw;
   margin:0 auto;
 }
 
 .slider img {
   width:60vw;
-  height:37vw;
+  height:auto;
 }
 
 .slider .slick-slide {
