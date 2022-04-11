@@ -287,32 +287,6 @@ txt4 {
     transform: rotate(45deg);
 }
 
-/*ドットナビゲーションの設定*/
-
-.slick-dots {
-    text-align:center;
-	margin:20px 0 0 0;
-}
-
-.slick-dots li {
-    display:inline-block;
-	margin:0 5px;
-}
-
-.slick-dots button {
-    color: transparent;
-    outline: none;
-    width:8px;/*ドットボタンのサイズ*/
-    height:8px;/*ドットボタンのサイズ*/
-    display:block;
-    border-radius:50%;
-    background:#ccc;/*ドットボタンの色*/
-}
-
-.slick-dots .slick-active button{
-    background:#333;/*ドットボタンの現在地表示の色*/
-}
-
 /*---------- セクション ---------- */
 .sec02 {
   margin: 0 0 0 0;
