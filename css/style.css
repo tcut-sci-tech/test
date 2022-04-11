@@ -248,6 +248,7 @@ txt4 {
 .slider img {
   width:60vw;
   height:auto;
+  margin: 0vw 0vw 0vw 0vw;
 }
 
 .slider .slick-slide {
