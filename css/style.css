@@ -3,7 +3,7 @@
 /*---------- 文字 ---------- */
 body {
   font-family: 'M PLUS 1p', 'Montserrat', sans-serif;
-  margin: 0;
+  margin: 0 0 0 0;
   padding: 0;
 }
 
@@ -118,7 +118,7 @@ txt4 {
 
 /*---------- 画像切り替え ---------- */
 .slideBox {
-  width: 100vw;
+  width: 100%;
   height: 56.25vw;
   overflow: hidden;
   position: relative;
@@ -242,7 +242,7 @@ txt4 {
 /*---------- スライド ---------- */
 .slider {
   width:94%;
-  margin: 0 0 0 0;
+  margin:0 auto;
 }
 
 .slider img {
