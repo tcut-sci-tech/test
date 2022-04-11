@@ -242,6 +242,7 @@ txt4 {
 /*---------- スライド ---------- */
 .slider {
   width:94%;
+  height:auto;
   margin:0 auto;
 }
 
