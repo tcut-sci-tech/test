@@ -242,6 +242,7 @@ txt4 {
 /*---------- スライド ---------- */
 .slider {
   width:94%;
+  height:auto;
   margin:0 auto;
 }
 
@@ -294,7 +295,7 @@ txt4 {
 
 .sec04 {
   margin: 0 0 0 0;
-	height: 50%;
+	height: auto;
 	background-color: #00a7eb;
 }
 
