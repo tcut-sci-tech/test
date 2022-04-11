@@ -60,6 +60,21 @@ h5:hover{
   opacity: 0.5;
 }
 
+h6 {
+  margin: 0 0 0 0;
+  position: relative;
+  font-size: 3.5vw;
+  text-align: center;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+ul{
+  margin:0;
+	padding: 0;
+	list-style: none;
+}
+
 a {
   margin: 0 0 0 0;
   position: relative;
@@ -224,6 +239,74 @@ txt4 {
     border-top: solid 10px #ff7d6e;
 }
 
+/*---------- スライド ---------- */
+.slider {
+  width:94%;
+  margin:0 auto;
+}
+
+.slider img {
+  width:60vw;
+  height:auto;
+}
+
+.slider .slick-slide {
+  transform: scale(0.8);
+  transition: all .5s;
+  opacity: 0.5;
+}
+
+.slider .slick-slide.slick-center{
+	transform: scale(1);
+	opacity: 1;
+}
+
+.slick-prev, 
+.slick-next {
+  position: absolute;
+  top: 42%;
+  cursor: pointer;
+  outline: none;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  height: 15px;
+  width: 15px;
+}
+
+.slick-prev {
+  left: -1.5%;
+  transform: rotate(-135deg);
+}
+
+.slick-next {
+  right: -1.5%;
+  transform: rotate(45deg);
+}
+
+.slick-dots {
+  text-align:center;
+	margin:0.5vw 0 0 0;
+}
+
+.slick-dots li {
+  display:inline-block;
+	margin:0 5px;
+}
+
+.slick-dots button {
+  color: transparent;
+  outline: none;
+  width:1vw;
+  height:1vw;
+  display:block;
+  border-radius:50%;
+  background:#fff;
+}
+
+.slick-dots .slick-active button{
+  background:#000;
+}
+
 /*---------- セクション ---------- */
 .sec02 {
   margin: 0 0 0 0;
@@ -236,10 +319,10 @@ txt4 {
 .sec04 {
   margin: 0 0 0 0;
 	height: auto;
-	background-color: #dcdcdc;
+	background-color: #00a7eb;
 }
 
-.sec05 {
+.sec06 {
   margin: 0 0 0 0;
 	height: auto;
 	background-color: #2857b1;
