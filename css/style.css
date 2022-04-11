@@ -285,12 +285,12 @@ txt4 {
 
 .slick-dots {
   text-align:center;
-	margin:0 0 0 0;
+	margin: 1vw 0 0 0;
 }
 
 .slick-dots li {
   display:inline-block;
-	margin:0 5px;
+	margin: 0 5px;
 }
 
 .slick-dots button {
