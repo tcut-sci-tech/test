@@ -8,5 +8,5 @@
 		nextArrow: '<div class="slick-next"></div>',//矢印部分NextのHTMLを変更
 		centerMode: true,//要素を中央ぞろえにする
 		variableWidth: true,//幅の違う画像の高さを揃えて表示
-		dots: false,//下部ドットナビゲーションの表示
+		dots: true,//下部ドットナビゲーションの表示
 	});
